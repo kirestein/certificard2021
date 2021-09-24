@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(225deg, #230432 27.26%, #8334a7 96.03%);
+    font-family: 'Rasa', serif;
+}
+
+.dark {
+    background: linear-gradient(315deg, #170222 27.26%, #6e268f 96.03%);
+}
+
+.dark .container{
+    background-color:#1c1c1c;
+    color: #fff;
+}
+
+.dark .projetos {
+    color:#1c1c1c;
+}
+
+.dark .tema button {
+    background-color:#1c1c1c;
+    color: #fff;
+    border:1px solid #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    
+}
+
+.container {
+    background-color: rgb(240, 230, 247);
+    margin: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0.8rem 0.5rem 0.5rem #000;
+    color: #1c1c1c;
+    padding:  4rem;
+    
+    
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-img {
+    border-radius: 50%;
+    max-width: 10rem;
+    margin: 1rem;
+    box-shadow: 0 0 1.5rem rgb(104, 104, 104);
+}
+
+.imersao {
+    font-size: 6rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    
+}
+.subtitle {
+    font-size: 1.65rem;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.tema button {
+    align-self: flex-end;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border-radius: 5rem;
+    background-color: #e9dfee;
+}
+
+.projetos {
+    background: linear-gradient(225deg, #a38bad 27.26%, #f5e8fc 96.03%);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    box-shadow: 0.8rem 0.5rem 0.5rem #a38bad;
+}
+
+.projetos-titulo {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.projetos h2 {
+    font-size: 2rem;
+    
+}
+
+li {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #1c1c1c;
+}
